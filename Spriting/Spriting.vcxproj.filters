@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{4876e4ea-f161-4dba-9a76-63a1ce93986c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL">
+      <UniqueIdentifier>{6e91da54-5816-46f4-a8f9-6d92ea671633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{90bcaa3b-b9c3-4a7a-9f45-56e08333a0f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Colors.cpp">
+      <Filter>SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLO.cpp">
+      <Filter>SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="StdWilUtil.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Colors.h">
+      <Filter>SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLO.h">
+      <Filter>SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="math_ext.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="RectF.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="StdWilUtil.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="Vectorf.h">
+      <Filter>util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
